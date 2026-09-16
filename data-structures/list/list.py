@@ -119,3 +119,9 @@ data = [[1, 2], [3, 4]]
 
 new_data = data.copy()
 print(new_data)
+
+# nested comprehensions
+matrix = [[1, 2], [3, 4]]
+
+flattened = [value for row in matrix for value in row]
+print(flattened)
