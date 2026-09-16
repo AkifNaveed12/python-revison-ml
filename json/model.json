@@ -1,0 +1,8 @@
+{
+    "model": "linear regression",
+    "accuracy": 0.92,
+    "features": [
+        "age",
+        "salary"
+    ]
+}
